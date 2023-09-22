@@ -14,21 +14,25 @@ int main() {
 
   switch(op) {
 
-    case 1: result = a + b;    // code
+    case 1: 
+             result = a + b;    // code
+                    
+             break;
 
-                    break;
+    case 2: 
+             result = a - b;   // code
 
-    case 2: result = a - b;   // code
+             break;
 
-                    break;
+    case 3: 
+             result = a * b;    // code
 
-    case 3: result = a * b;    // code
+             break;
 
-                    break;
+    case 4: 
+             result = (double) a / b;    // code
 
-    case 4: result = (double) a / b;    // code
-
-                    break;
+             break;
 
   }
 
